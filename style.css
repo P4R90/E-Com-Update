@@ -1,0 +1,320 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+ }
+.header {
+    display: flex;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    height: 100px;
+    align-items: center;
+    background-color: white;
+}
+
+.logo {
+    margin-left: 100px;
+    color: black;
+    font-size: 250%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    list-style-type: none;
+}
+
+.nav a {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.nav a:hover {
+    color: whitesmoke;
+}
+
+.content {
+    display: flex;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    align-items: center;
+}
+
+/* Left Bar */
+.left_bar {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 100vh;
+    width: 28%;
+    align-items: center;
+    background-color: white;
+}
+
+.border1 {
+    background-color: rgb(56, 56, 56);
+    height: 0.5%;
+    width: 35%;
+    border: 1px solid rgb(56, 56, 56);
+    margin-right: 60%;
+}
+
+.left_bar h1 {
+    color: Black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 37;
+}
+
+
+.news_letter_button {
+    margin-top: 8%;
+    height: 44px;
+    width: 85%;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12;
+}
+
+.left_bar p {
+
+    color: Black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 25px;
+}
+
+.right_bar {
+    display: flex;
+    margin-left: 1%;
+    background-color: white;
+    height: 100vh;
+    width: 72%;
+    object-fit: scale-down;
+}
+
+.left_image{
+    background-image: url('/img/pexels-gabriela-guerino-1839904.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 100%;
+    width: 50%;
+
+}
+
+.right_images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 1%;
+    width: 52%;
+    gap: 1.5%;
+}
+
+.left_image {
+    
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    background-image: url("https://images.pexels.com/photos/1996969/pexels-photo-1996969.jpeg?auto=compress&cs=tinysrgb&w=1600");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 100% 100%;
+}
+
+.image1 {
+    
+    height: 50%;
+    width: 100%;
+    text-align: center;
+    background-image: url("https://images.pexels.com/photos/5368963/pexels-photo-5368963.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 100% 100%;
+}
+
+.image2 {
+
+    height: 50%;
+    width: 100%;
+    text-align: center;
+    background-image: url("https://images.pexels.com/photos/10329149/pexels-photo-10329149.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 100% 100%;
+}
+
+
+
+footer{
+    display: flex;
+    height: 100px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+/* BLUR */
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+  }
+  
+  .background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      filter: blur(0px);
+  }
+  
+  .loadingText {
+    text-align: center;
+      font-size: 50px;
+      color: #FFFF;
+      z-index: 1;
+  }
+
+  
+
+  .signup_button {
+    margin-top: 8%;
+    margin-right: 40%;
+    height: 44px;
+    width: 45%;
+    background-color: rgb(233, 171, 0);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12;
+
+}
+
+  /* news letter button */
+
+  #openDialog {
+    margin-top: 8%;
+    margin-right: 40%;
+    height: 44px;
+    width: 45%;
+    background-color: rgb(233, 171, 0);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12;
+  }
+  
+  /* Styles for the dialog */
+  .dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 20px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+  }
+  
+  /* Styles for the dialog content */
+  .dialog-content {
+    text-align: center;
+  }
+  
+  /* Styles for the overlay */
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9998;
+    display: none;
+  }
+
+  /* Full-width input fields */
+.form-container input[type=text], .form-container input[type=email] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+.closeDialog {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(177, 177, 177);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12;
+    
+
+
+}
+
+.submit_button {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(233, 171, 0);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12;
+}
+
+

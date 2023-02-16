@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="loadingText">0%</div>
+    <section class="background">
+        <div class="container">
+            <section class="header">
+                <div class="logo">DESIGN LOGO</div>
+                <ul class="nav">
+                    <li>
+                    <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                    <a href="#">Shop</a>
+                    </li>
+                    <li>
+                    <a href="#">News</a>
+                    </li>
+                    <li>
+                    <a href="#">Contact</a>
+                    </li>
+                </ul>
+
+            </section>
+
+            <section class="content">
+                <div class="left_bar">
+                    <div class="border1"></div>
+                    <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias esse adipisci assumenda quae animi architecto fugi</h1>
+                    
+                    <button id="openDialog">Newsletter Sign-up</button>
+                    <div id="dialog" class="dialog">
+                        <div class="dialog-content">
+                            <h2>Newsletter Sign-up</h2>
+                            <p>Please fill in the details below to sign up to our exclusive Newsletter<br>
+                            and to recieve 10% off your first order.</p>
+
+
+                            <div class="form-popup" id="myForm">
+                                <form action="none" method="post" class="form-container">
+                                <label for="email"><b>Name</b></label>
+                                
+                                <input type="text" placeholder="First Name" id="name" name="fname" required>
+                                <input type="text" placeholder="Last Name" id="lastname" name="lname" required>
+                                <label for="email"><b>Email</b></label>
+                                <input type="email" placeholder="Email" id="email" name="email" required>
+                                
+                                <button class = "closeDialog" id="closeDialog">Close Dialog</button>
+                                <button type="submit" class ="submit_button" id="submit">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div id="overlay" class="overlay"></div>
+
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem commodi, recusandae omnis vero laborum debitis neque voluptatibus, doloribus, minima necessitatibus aspernatur porro minus! Nam dolores ipsa voluptatibus aliquid excepturi architecto!</p>
+                    <button class="news_letter_button">Sign Up</button>
+                </div>
+
+                <div class="right_bar">
+                    <div class="left_image"></div>
+                    <div class="right_images">
+                        <div class="image1"></div>
+                        <div class="image2"></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <footer>
+            <p class="copyright">Philip Roberts © 2023 All rights reserved </p>
+        </footer>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
